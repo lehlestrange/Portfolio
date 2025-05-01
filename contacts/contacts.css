@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Raleway", sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../img/fundo-linhas.jpg);
+    background-position: center;
+    height: 20vh;
+    align-items: center;
+}
+
+h2 {
+    font-size: 6rem;
+    color: white;
+    padding: 0 50% 0 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    height: 70vh;
+
+}
+
+.enviar {
+    width: 80%;
+    color: white;
+    background-color: rgb(163, 50, 163);
+    border-radius: 4px;
+    border: none;
+    margin: 0 0 5% 10%;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 3rem;
+}
+
+input {
+    padding: 2rem;
+}
+
+textarea {
+    padding: 4rem;
+}
+
+.enviar {
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.enviar:hover {
+    background-color: rgb(167, 112, 218);
+    color: black;
+    cursor: pointer;
+
+}
+
+.midias {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 20%;
+}
+
+a {
+    margin: 10%;
+
+
+}
+
+footer {
+    background-image: url(./img/fundo-linhas.jpg);
+    background-position: center;
+    height: 20%;
+    font-size: 2rem;
+    color: white;
+    padding: 10% 0;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../img/fundo-linhas.jpg);
+    background-position: center;
+    height: 20vh;
+    align-items: center;
+}
+
+h2 {
+    font-size: 6rem;
+    color: white;
+    padding: 0 50% 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    margin: 10%;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.imgimg{
+    width: 800px;
+    height: 1000px;
+    margin: 2rem;
+}
