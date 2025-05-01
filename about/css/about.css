@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.headerabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../img/fundo-linhas.jpg);
+    background-position: center;
+    height: 20vh;
+    align-items: center;
+}
+
+h2 {
+    font-size: 6rem;
+    color: white;
+    padding: 0 50% 0 0;
+}
+
+.containerabout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "one two";
+    place-items: center;
+    padding: 1rem;
+}
+
+.imagemabout:nth-child(1) {
+    grid-area: one;
+}
+
+.sobremim:nth-child(2) {
+    grid-area: two;
+}
+
+.imagemabout {
+    margin: 10%;
+    
+}
+
+.sobremim {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 2;
+    padding: 2rem;
+}
