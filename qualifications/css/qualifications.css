@@ -1,0 +1,66 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: "Raleway", sans-serif;
+ }
+
+ .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../img/fundo-linhas.jpg);
+   background-position: center;
+    height: 20vh;
+    align-items: center;
+
+   
+ }
+ h2{
+    
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    padding: 0 40% 0 0 ;
+ }
+ .container{
+    display: flex; 
+ }
+
+ .imgcert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     width: 50%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+ }
+ .certifi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(254, 252, 255);
+ }
+
+ img{
+    width: 60%;
+    height: 40%;
+    padding: 2rem;
+
+ }
+ li{
+    
+    list-style: none;
+    margin: 10px ;
+    padding: 2rem;
+    font-size: 2rem;
+    color: rgb(72, 4, 161);
+    text-align: center;
+    font-size: 4rem;
+    padding: 10%;
+ }

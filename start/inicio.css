@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-image: url(./fundo-linhas.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgfundo {
+    width: 100%;
+    z-index: -2;
+}
+
+.cabeçalho {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    font-size: 6rem;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.342);
+    height: 80vh;
+}
+
+.logotipo {
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    height: 60vh;
+    margin: 0 20% 0 0;
+
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-self: center;
+
+}
+
+button {
+    background-color: rgb(119, 47, 236);
+    color: white;
+    font-weight: 400;
+    padding: 4rem;
+    font-size: 4rem;
+    width: 90%;
+    height: 90%;
+    border-radius: 6px;
+    border: none;
+    margin: 3rem;
+
+}
+
+button:hover {
+    background-color: rgb(200, 158, 240);
+    cursor: pointer;
+}
